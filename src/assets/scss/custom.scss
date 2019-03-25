@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+/* bootstrap scss override
+$theme-colors: (
+  "primary": #666699,
+); */
+
+$font-stack: 'Roboto', Helvetica, sans-serif!important;
+
+body {
+  font-family: $font-stack;
+}
+
+h1, .lead, p {color: #fff;}
+
+button, span {
+  a, a:visited,  a:hover {color: #fff;text-decoration: none!important;}
+
+}
+
+p {  text-align: center;}
+
+
+p button {
+  margin: 0 auto;
+  padding: 1em;
+  display: block;
+  margin-top: .5em!important;
+}
+
+span {margin: .6em; display: inline-block;}
+
+.img-fluid {max-width: 100px!important}
+
+.techs{
+  max-width: 85vh;
+  margin: 0 auto;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../img/bg.png');
+  background-repeat: repeat;
+}
